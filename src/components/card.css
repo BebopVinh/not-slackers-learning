@@ -1,5 +1,17 @@
 @tailwind utilities;
 
 .paper {
-    @apply .w-2/5 .h-full .rounded .overflow-hidden .shadow-lg .mb-16 .bg-top .pb-6;
+  @apply .h-full .rounded .overflow-hidden .shadow-lg .mb-16 .bg-top .pb-6;
+}
+
+@screen sm {
+  .paper {
+    @apply .w-full;
+  }
+}
+
+@screen md {
+  .paper {
+    @apply .w-2/5;
+  }
 }
