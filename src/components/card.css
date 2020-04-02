@@ -1,4 +1,5 @@
 @tailwind utilities;
+@tailwind screens;
 
 .paper {
   @apply .h-full .rounded .overflow-hidden .shadow-lg .mb-16 .bg-top .pb-6;
@@ -6,7 +7,7 @@
 
 @screen sm {
   .paper {
-    @apply .w-full;
+    @apply .w-4/5;
   }
 }
 
