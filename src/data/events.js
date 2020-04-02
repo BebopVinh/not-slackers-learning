@@ -40,7 +40,7 @@ const gameNight = {
   description: `Hop on a video call and play games in a remote setting. Had a blast with Jackbox.tv, will explore other board game platforms as well!`,
   imgUrl: undrawGame,
   lead: 'Anyone!',
-  tags: ['#gamenight, #videogame, #boardgame'],
+  tags: ['#gamenight', '#videogame', '#boardgame'],
   time: 'Usually 4PM PST or later',
   title: 'GAME NIGHT!',
 }
