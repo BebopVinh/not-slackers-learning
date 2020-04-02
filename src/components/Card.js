@@ -15,7 +15,10 @@ const Card = ({ props }) => {
       <img className="w-full min-h-1/4" src={imgUrl} alt="header image" />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>
-        <p className="text-grey-darker text-base mb-4">{lead}</p>
+        <p className="text-grey-darker text-base mb-2">{lead}</p>
+        <p className="text-grey-darker text-base mb-2">Days: {days}</p>
+        <p className="text-grey-darker text-base mb-4">Time: {time}</p>
+
         <p class="text-gray-700 text-base">{description}</p>
       </div>
 
