@@ -12,7 +12,15 @@ const Card = ({ props }) => {
           backgroundImage: `url(${imgUrl})`,
         }}
       /> */}
-      <img className="w-full min-h-1/4" src={imgUrl} alt="header image" />
+      {title === 'React Training' ? (
+        <img
+          className="w-full min-h-1/4 px-5 py-5"
+          src={imgUrl}
+          alt="header image"
+        />
+      ) : (
+        <img className="w-full min-h-1/4" src={imgUrl} alt="header image" />
+      )}
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>
         <p className="text-grey-darker text-base mb-2">{lead}</p>
