@@ -1,6 +1,7 @@
 import frontendLogo from '../images/frontend-logo.svg'
 import nodejs from '../images/nodejs.png'
 import undrawCode from '../images/undraw-code.svg'
+import undrawGame from '../images/undraw-video-game.svg'
 
 const newLessons = {
   days: 'Mon/Thurs',
@@ -9,7 +10,7 @@ const newLessons = {
   imgUrl: nodejs,
   lead: 'Vinh',
   tags: ['#nodejs', '#express'],
-  time: '10AM - 11AM Subject to Change Based on Needs',
+  time: '10AM - 11AM PST Subject to Change Based on Needs',
   title: 'Backend with Node',
 }
 
@@ -20,7 +21,7 @@ const frontend = {
   imgUrl: frontendLogo,
   lead: 'Kenneth',
   tags: ['#react', '#css'],
-  time: '10AM - 11AM Subject to Change Based on Needs',
+  time: '10AM - 11AM PST Subject to Change Based on Needs',
   title: 'React Training',
 }
 
@@ -30,8 +31,18 @@ const clinicOffice = {
   imgUrl: undrawCode,
   lead: 'Kenneth & Vinh',
   tags: ['#collab'],
-  time: '11AM or after lesson hour',
+  time: '11AM PST or after lesson hour',
   title: 'Office Hours and Project Clinic',
 }
 
-export const eventsArray = [newLessons, frontend, clinicOffice]
+const gameNight = {
+  days: 'Monday or Friday Nights',
+  description: `Hop on a video call and play games in a remote setting. Had a blast with Jackbox.tv, will explore other board game platforms as well!`,
+  imgUrl: undrawGame,
+  lead: 'Anyone!',
+  tags: ['#gamenight, #videogame, #boardgame'],
+  time: 'Usually 4PM PST or later',
+  title: 'GAME NIGHT!',
+}
+
+export const eventsArray = [newLessons, frontend, clinicOffice, gameNight]
