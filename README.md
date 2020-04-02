@@ -1,19 +1,9 @@
-_*Note:* This project includes TailwindCSS and the `gatsby-source-graphql` plugin, for all Gatsby related features, see blow. For Tailwind features, see the [TailwindCSS docs](https://tailwindcss.com/docs/installation/) (this project is configured with a postcss.config.js file) and for GraphCMS see https://graphcms.com - Thanks!_
+_*Note:* This project includes TailwindCSS and the `gatsby-source-graphql` plugin, for all Gatsby related features, see below. For Tailwind features, see the [TailwindCSS docs](https://tailwindcss.com/docs/installation/) (this project is configured with a postcss.config.js file) and for GraphCMS see https://graphcms.com - Thanks!_
 
-<p align="center">
-  <a href="https://next.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's default starter with GraphCMS!
-</h1>
+## Built with Gatsby GraphCMS + TailwindCSS Starter
+### [Link](https://www.gatsbyjs.org/starters/GraphCMS/gatsby-graphcms-tailwindcss-example/)
 
-Kick off your project with this default boilerplate. This barebones starter ships with the main Gatsby configuration files you might need. 
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://next.gatsbyjs.org/docs/gatsby-starters/)._
-
-## 🚀 Quick start
+## 🚀 Quick start for local development
 
 1.  **Install the Gatsby CLI.**
 
